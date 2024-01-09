@@ -5775,8 +5775,8 @@ packages:
     resolution: {integrity: sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg==}
     dev: false
 
-  /decode-uri-component@0.2.0:
-    resolution: {integrity: sha512-hjf+xovcEn31w/EUYdTXQh/8smFL/dzYjohQGEIgjyNavaJfBY2p5F527Bo1VPATxv0VYTUC2bOcXvqFwk78Og==}
+  /decode-uri-component@0.2.2:
+    resolution: {integrity: sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==}
     engines: {node: '>=0.10'}
     dev: false
 
@@ -10706,7 +10706,7 @@ packages:
     resolution: {integrity: sha512-gjWOsm2SoGlgLEdAGt7a6slVOk9mGiXmPFMqrEhLQ68rhQuBnpfs3+EmlvqKyxnCo9/PPlF+9MtY02S1aFg+Jw==}
     engines: {node: '>=0.10.0'}
     dependencies:
-      decode-uri-component: 0.2.0
+      decode-uri-component: 0.2.2
       object-assign: 4.1.1
       strict-uri-encode: 1.1.0
     dev: false
@@ -13146,7 +13146,7 @@ packages:
       eth-lib: 0.2.7
       ethereumjs-common: 1.5.2
       ethereumjs-tx: 2.1.2
-      scrypt-shim: github.com/web3-js/scrypt-shim/aafdadda13e660e25e1c525d1f5b2443f5eb1ebb
+      scrypt-shim: git@github.com+web3-js/scrypt-shim/aafdadda13e660e25e1c525d1f5b2443f5eb1ebb
       underscore: 1.9.1
       uuid: 3.3.2
       web3-core: 1.2.2
@@ -13609,7 +13609,7 @@ packages:
     dependencies:
       underscore: 1.9.1
       web3-core-helpers: 1.2.1
-      websocket: github.com/web3-js/WebSocket-Node/ef5ea2f41daf4a2113b80c9223df884b4d56c400
+      websocket: git@github.com+web3-js/WebSocket-Node/ef5ea2f41daf4a2113b80c9223df884b4d56c400
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -13620,7 +13620,7 @@ packages:
     dependencies:
       underscore: 1.9.1
       web3-core-helpers: 1.2.2
-      websocket: github.com/web3-js/WebSocket-Node/ef5ea2f41daf4a2113b80c9223df884b4d56c400
+      websocket: git@github.com+web3-js/WebSocket-Node/ef5ea2f41daf4a2113b80c9223df884b4d56c400
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -14276,8 +14276,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  github.com/web3-js/WebSocket-Node/ef5ea2f41daf4a2113b80c9223df884b4d56c400:
-    resolution: {tarball: https://codeload.github.com/web3-js/WebSocket-Node/tar.gz/ef5ea2f41daf4a2113b80c9223df884b4d56c400}
+  git@github.com+web3-js/WebSocket-Node/ef5ea2f41daf4a2113b80c9223df884b4d56c400:
+    resolution: {commit: ef5ea2f41daf4a2113b80c9223df884b4d56c400, repo: git@github.com:web3-js/WebSocket-Node.git, type: git}
     name: websocket
     version: 1.0.29
     engines: {node: '>=0.10.0'}
@@ -14292,8 +14292,8 @@ packages:
       - supports-color
     dev: false
 
-  github.com/web3-js/scrypt-shim/aafdadda13e660e25e1c525d1f5b2443f5eb1ebb:
-    resolution: {tarball: https://codeload.github.com/web3-js/scrypt-shim/tar.gz/aafdadda13e660e25e1c525d1f5b2443f5eb1ebb}
+  git@github.com+web3-js/scrypt-shim/aafdadda13e660e25e1c525d1f5b2443f5eb1ebb:
+    resolution: {commit: aafdadda13e660e25e1c525d1f5b2443f5eb1ebb, repo: git@github.com:web3-js/scrypt-shim.git, type: git}
     name: '@web3-js/scrypt-shim'
     version: 0.1.0
     requiresBuild: true
